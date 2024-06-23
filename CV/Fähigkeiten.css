@@ -1,0 +1,25 @@
+body{
+    background-color: #3E4547;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.Sidebar{
+    width: 400px;
+    height: 930px;
+    background-color: #59717A;
+}
+.NavBar{
+    background-color: #5C96AD;
+    height: max-content;
+
+    
+}
+.TitelName{
+    font-size: 50px;
+
+}
+.links{
+    text-align: right;
+    font-size: 40px;
+}

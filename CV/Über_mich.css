@@ -1,0 +1,58 @@
+body {
+    background-color: #3E4547;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar {
+    background-color: #5C96AD;
+    height: max-content;
+}
+
+.TitelName {
+    font-size: 50px;
+    padding: 50px;
+    width: 296px;
+    height: 50px;
+    display: grid;
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - max-content);
+}
+
+.Sidebar {
+    width: 400px;
+    height: 584px;
+    background-color: #59717A;
+    display: grid;
+}
+
+#links {
+    display: grid;
+}
+
+a {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 45px;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E4547;
+}
+
+.centered-object {
+    height: 500px;
+    width: 1000px;
+    background-color: #49B4E0;
+    padding: 20px;
+    border-radius: 10px;
+}
